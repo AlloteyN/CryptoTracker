@@ -1,0 +1,75 @@
+.nav-bar {
+  display: flex;
+  align-items: center;
+  background-color: #21222a;
+  height: 90px;
+  padding: 30px 25px;
+  font-family: Inter;
+
+  /* padding: 10px; */
+}
+
+.main {
+  color: white;
+  /* text-align: center; */
+}
+
+.myTitle {
+  font-size: 40px;
+  text-align: center;
+}
+
+.facts {
+  color: rgb(97, 219, 251);
+  font-size: 20px;
+}
+
+.course {
+  color: rgb(97, 219, 251);
+  font-size: 20px;
+  text-align: right;
+}
+
+.nav-bar > img {
+  padding: 10px;
+  width: 80px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter;
+  height: 100vh;
+  background-color: #282d35;
+}
+
+nav > h3 {
+  margin-right: auto;
+}
+
+.list {
+  margin-top: 100px;
+}
+
+.list > li {
+  margin-top: 5px;
+}
+
+.list > li::marker {
+  font-size: 2rem;
+  color: rgb(97, 219, 251);
+}
+
+.user > img {
+  width: 80px;
+  padding: 10px;
+}
+.user {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(97, 219, 251);
+}
